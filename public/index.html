@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/btnGlitch.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row content d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+                <h1 class="mb-5">Recad<span>OS</span></h1>
+                <div class="box shadow p-4">
+                    <h3 class="mb-4 text-center fs-1"><span>LOGIN</span></h3>
+                    <form class="mb-3">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-0" id="email"
+                                placeholder="nome@exemplo.com">
+                            <label class="text-muted" for="email">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-0" id="password" placeholder="****">
+                            <label class="text-muted" for="password">Senha</label>
+                        </div>
+                        <div class="d-grid gap-2 mb-3">
+                            <button id="btnSignIn" class="btn btn--secondary">
+                                <span class="btn__content">LOGAR</span>
+                                <span class="btn__glitch"></span>
+                                <span class="btn__label">flp</span>
+                            </button>
+                        </div>
+                        <p class="text-center text-white mt-4">Não possui uma conta? <a
+                                href="register.html">Cadastre-se</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="dist/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --yellow-color: #fcee09; 
+    --red-color: #ff003c;
+    --black-color: #050a0e;
+    --blue-color: #00f0ff;
+    --white-color: #fafafa;
+}
+
+body{
+    background-color: #222;
+}
+
+.content{
+    height: 100vh;
+}
+
+.box{
+    background-color: rgba(48, 48, 48, 0.514);
+}
+
+.form-control{
+    background-color: rgb(51, 51, 51);
+    border: none;
+}
+
+h1, h1 span{
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--white-color);
+    font-family: 'Tomorrow', sans-serif;
+}
+
+h1 span{
+    background-image: linear-gradient(to right, #f3e600, #FF003C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 span{
+    background-image: linear-gradient(to right, #f3e600, #FF003C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form p, form a{
+    font-size: 1.2rem;
+}
+
+form a{
+    background-image: linear-gradient(to right, #f3e600, #FF003C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:356px){
+    h1{
+        font-size: 4rem;
+    }
+
+    h1>span{
+        font-size: 4rem;
+    }
+}
